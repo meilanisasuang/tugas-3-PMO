@@ -1,0 +1,39 @@
+public class ContohOperatorGabunganMeilaniSasuwang {
+    public static void main(String[] args) {
+        // Operator Bit
+        int a = 5;  // 0101 dalam biner
+        int b = 3;  // 0011 dalam biner
+
+        // Bitwise AND
+        int hasilAnd = a & b;  // 0001 dalam biner, yaitu 1 dalam desimal
+        System.out.println("Bitwise AND: " + hasilAnd);
+
+        // Bitwise OR
+        int hasilOr = a | b;   // 0111 dalam biner, yaitu 7 dalam desimal
+        System.out.println("Bitwise OR: " + hasilOr);
+
+        // Operator Logika
+        boolean x = true;
+        boolean y = false;
+
+        // Logical AND
+        boolean hasilLogikaAnd = x && y;  // false, karena keduanya harus true
+        System.out.println("Logical AND: " + hasilLogikaAnd);
+
+        // Logical OR
+        boolean hasilLogikaOr = x || y;   // true, karena setidaknya satu bernilai true
+        System.out.println("Logical OR: " + hasilLogikaOr);
+
+        // Operator Penugasan
+        int angka = 10;
+
+        // Penugasan sederhana
+        angka = 20;
+        System.out.println("Nilai setelah penugasan: " + angka);
+
+        // Tambah dan tugaskan
+        angka += 5;  // Setara dengan angka = angka + 5
+        System.out.println("Setelah operasi += : " + angka);
+    }
+}
+
